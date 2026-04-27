@@ -93,7 +93,7 @@ By checking "Import sample data" on the UI, the database schema and an initial `
 >[!WARNING]
 > Do **not** check "Create the database" or "Create the database user" — both already exist
 
-Afterwards completing the set up wizard, you can log in to the instance with that account. Make sure to changed the password.
+After completing the set up wizard, you can log in to the instance with that account. Make sure to changed the password.
 
 ## Troubleshooting
 
