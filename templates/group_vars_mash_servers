@@ -11337,7 +11337,8 @@ nextcloud_database_type: "{{ 'postgres' if postgres_enabled | default(false) els
 # FSS, which is Nextcloud, the Nextcloud and CODE instances are
 # connected by default, if both of them are enabled.
 #
-nextcloud_app_collabora_wopi_url: "{{ collabora_online_url if collabora_online_enabled }}"
+nextcloud_app_richdocuments_wopi_client_url: "{{ collabora_online_url if collabora_online_enabled }}"
+nextcloud_app_richdocuments_wopi_client_network: "{{ collabora_online_container_network }}"
 # /role-specific:collabora_online
 
 # role-specific:exim_relay
